@@ -1,5 +1,5 @@
 {
-  "name": "@cucumber/cucumber",
+  "name": "@proxym-france/cucumber-cucumber",
   "description": "The official JavaScript implementation of Cucumber.",
   "keywords": [
     "testing",
@@ -8,7 +8,7 @@
     "gherkin",
     "tests"
   ],
-  "version": "9.0.0",
+  "version": "9.0.4",
   "homepage": "https://github.com/cucumber/cucumber-js",
   "author": "Julien Biezemans <jb@jbpros.com>",
   "contributors": [
@@ -208,12 +208,12 @@
   "dependencies": {
     "@cucumber/ci-environment": "9.1.0",
     "@cucumber/cucumber-expressions": "16.1.1",
-    "@cucumber/gherkin": "26.0.3",
     "@cucumber/gherkin-streams": "5.0.1",
     "@cucumber/gherkin-utils": "8.0.2",
     "@cucumber/html-formatter": "20.2.1",
     "@cucumber/message-streams": "4.0.1",
-    "@cucumber/messages": "21.0.1",
+    "@cucumber/messages": "npm:@proxym-france/cucumber-messages@21.0.1",
+    "@cucumber/gherkin": "npm:@proxym-france/cucumber-gherkin@26.0.5",
     "@cucumber/tag-expressions": "5.0.1",
     "assertion-error-formatter": "^3.0.0",
     "capital-case": "^1.0.4",
@@ -333,7 +333,7 @@
     "update-dependencies": "npx npm-check-updates --upgrade"
   },
   "bin": {
-    "cucumber-js": "bin/cucumber.js"
+    "proxym-france-cucumber-js": "bin/cucumber.js"
   },
   "license": "MIT",
   "files": [
